@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,34 +18,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Enable IIS
-- Instal web platform Installer
-- Install mysql
-- Item 4
-- configure permissions
+- HeidiSQL_12.3.0.6589
+- mysql-5.5.62
+- osTicket-v1.15.8
+- php-7.3.8-nts
+- PHPManagerForIIS
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nM0iEhP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Before installing the prerequisites for osTicket, you want to enable IIS with CGI. IIS being Internet Information Services which is a web server that allows the computer to serve up websites because osTicket runs from a website and we need to configure IIS in order to run osTicket on the computer.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zx6neXh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After installing PHP Manager, Rewrite module and a list of others from above, you want to register PHP from within the IIS server and then restart the server.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/EXVEtRm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After doing a couple of settings on the IIS server, you download and install the HeidiSQL, which is basically a server as well.  Then you perform a couple of settings on it, after which you install the osTicket software successfully, as can be seen from the picture above.
 </p>
 <br />
